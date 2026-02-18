@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Page Annotator",
+  "version": "1.0",
+  "description": "Draw annotations on any webpage with 3 modes: Off, Annotate, and View",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Page Annotator"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "commands": {
+    "cycle-mode": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Cycle annotation mode (Off → Annotate → View)"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
