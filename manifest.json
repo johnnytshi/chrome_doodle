@@ -4,9 +4,19 @@
   "version": "1.0",
   "description": "Draw annotations on any webpage with 3 modes: Off, Annotate, and View",
   "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Page Annotator"
+    "default_title": "Page Annotator",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
   },
   "content_scripts": [
     {
