@@ -1,11 +1,11 @@
-# Chrome Doodle
+# Doodle
 
-A Chrome extension for drawing annotations on any webpage.
+A Chrome extension to doodle on any webpage.
 
 ## Modes
 
-| Mode | Annotations | Mouse |
-|------|------------|-------|
+| Mode | Doodles | Mouse |
+|------|--------|-------|
 | **Off** | Hidden | Normal |
 | **Annotate** | Visible, can draw | Captures clicks for drawing (scroll wheel still works) |
 | **View** | Visible, scroll with page | Normal — click, scroll, select text |
@@ -33,6 +33,6 @@ Click the extension icon to access:
 
 ## Notes
 
-- Annotations automatically clear on page navigation or reload
+- Doodles automatically clear on page navigation or reload
 - Works on SPAs (React, Next.js, etc.) that use inner scroll containers
 - Scrolling works in annotate mode via the mouse wheel
