@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Page Annotator",
+  "name": "Doodle",
   "version": "1.1",
-  "description": "Draw annotations on any webpage with an always-on overlay toolbar",
+  "description": "Doodle on any webpage",
   "permissions": ["activeTab"],
   "icons": {
     "16": "icon-16.png",
@@ -10,7 +10,7 @@
     "128": "icon-128.png"
   },
   "action": {
-    "default_title": "Toggle Page Annotator",
+    "default_title": "Toggle Doodle",
     "default_icon": {
       "16": "icon-16.png",
       "48": "icon-48.png",
